@@ -1,4 +1,4 @@
-num = int(input("Enter a number"))
+num = int(input("Enter a number between 1,2 or 3"))
 
 if num  == 1:
   print("thank you")
@@ -7,4 +7,4 @@ elif num == 2:
 elif num == 3:
   print("amazing. you are so good at this")
 else:
-  print("Really, what is wrong with you?")
+  print("Really, what is wrong with you?")")
