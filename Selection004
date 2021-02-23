@@ -1,0 +1,9 @@
+colour = input("Enter your favourite colour >>>")
+if colour == "red":
+  print("I like red too.")
+elif colour == "RED":
+  print("I like red too.")
+elif colour == "Red":
+  print("I like red too.")
+else:
+  print(" I dont like" , colour , colour, "is for losers.")
