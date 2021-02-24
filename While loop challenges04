@@ -1,0 +1,12 @@
+count = 0
+total = 1
+AddMore = "Y"
+
+while AddMore == "Y":
+  Name=str(input("Enter the name of who you want invited >>>"))
+  count =(count + total)
+  AddMore = str(input("Would you like to add another person? > ")).upper()
+  if AddMore == "n":
+    break
+  
+print(count)
