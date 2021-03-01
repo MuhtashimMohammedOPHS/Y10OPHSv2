@@ -1,0 +1,13 @@
+total = 0
+
+
+for i in range(5):
+  num = int(input("Enter a number >>>"))
+  num1 = str(input("Do you want that number included? >>>"))
+  if num1 == "y":
+    total = total + num
+  else:
+    total = total + 0
+    
+    
+print (total)
