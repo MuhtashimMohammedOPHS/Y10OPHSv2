@@ -3,7 +3,7 @@ total = 0
 
 for i in range(5):
   num = int(input("Enter a number >>>"))
-  num1 = str(input("Do you want that number included? >>>"))
+  num1 = str(input("Do you want that number included? >>>")).lower()
   if num1 == "y":
     total = total + num
   else:
