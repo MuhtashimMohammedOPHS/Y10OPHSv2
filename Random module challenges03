@@ -1,0 +1,26 @@
+import random
+
+
+guess = input("Guess heads or tails (h or t)>>>").lower()
+coin = random.choice (["heads", "tails"])
+
+if guess == "h":
+  if coin == "heads":
+   print("You win")
+   
+elif guess == "t":
+  if coin == "tails":
+   print("You win")
+   
+t = "tails"
+h = "heads"   
+   
+if guess == "h":
+  if coin == "tails":
+   print("Bad luck")
+   print("It was", coin)
+
+elif guess == "t":
+  if coin == "heads":
+   print("Bad luck")
+   print("It was", coin)
