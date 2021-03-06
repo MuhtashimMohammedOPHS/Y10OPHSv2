@@ -1,0 +1,39 @@
+import random
+
+num = random.randint(1,5)
+guess = int(input("Guess the number >>>"))
+
+while num!= "guess":
+  print
+  
+  if guess >num:
+   print("Too high try again")
+   retry = int(input("Guess the number >>>"))
+   if retry == num:
+    print("correct")
+    break
+   elif retry >num:
+     print("You lose")
+     break
+   elif retry <num:
+     print("You lose")
+     break
+   
+  elif guess <num:
+     print("Too low try again")
+     retry1 = int(input("Guess the number >>>"))
+     if retry1 <num:
+      print("You lose")
+      break
+     elif retry1 >num:
+       print("You lose")
+       break
+     
+
+  elif guess == num:
+   print("Well done")
+   break
+ 
+  
+  
+print(num)
