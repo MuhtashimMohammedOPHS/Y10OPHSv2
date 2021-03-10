@@ -1,0 +1,14 @@
+import random
+
+score = 0
+
+for i in range (5):
+  num1 = random.randint(0,10)
+  num2 = random.randint(0,10)
+  sum = num1 + num2
+  print (num1,"+",num2)
+  ans = int(input("What is your answer >>>"))
+  if ans == sum:
+   score +=1
+
+print("You got",score,"out of 5")
