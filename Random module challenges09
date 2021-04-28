@@ -1,0 +1,21 @@
+import random
+
+colours = random.choice(["Red", "Blue", "Green", "Brown", "Yellow"])
+x = False
+
+
+while x == False:
+  #print(colours)
+  print("Red,Blue,Green,Brown,Yellow")
+  ask = input("Pick any of the colours above>>> ")
+    
+  if ask == colours:
+   print("Well done")  
+   x = True
+  
+  else:
+    print("I like the colour" ,colours)
+    retry = input("Enter a colour")
+    if retry == colours:
+     print("Well done")  
+     x = True
