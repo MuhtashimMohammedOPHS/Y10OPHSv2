@@ -1,0 +1,12 @@
+TV = ["Show1","Show2","Show3","Show4"]
+
+for i in TV:
+  print(i)
+  
+ask = str(input("Add another show>>>"))
+place = int(input("What position do you want it in >>>"))
+
+TV.insert(place,ask)
+
+for i in TV:
+  print(i)
