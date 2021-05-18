@@ -1,0 +1,19 @@
+invite = []
+
+for inv in range(1):
+  List = str(input("Who do you want to invite"))
+  List2 = str(input("Who do you want to invite"))
+  List3 = str(input("Who do you want to invite"))
+
+invite.append(List)
+invite.append(List2)
+invite.append(List3)
+print(invite)
+
+ans = input("Do you want to invite more people y or n? >>>")
+if ans == "y":
+  others = input("Who else do you want to invite>>>")
+  invite.append(others)
+  
+else:
+  print(invite)
