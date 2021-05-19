@@ -1,4 +1,4 @@
-Food = []                     
+Food = []       
 
 ask = str(input("Enter a type of food >>>"))
 ask2 = str(input("Enter a type of food>>>"))
@@ -12,8 +12,8 @@ Food.append(ask4)
 
 print(Food)
 
-remove = str(input("Which food do you want to remove? >>>"))
+remove = int(input("Which food do you want to remove? >>>"))
 
-Food.remove(remove)
+Food.pop(remove)
   
 print(Food)
