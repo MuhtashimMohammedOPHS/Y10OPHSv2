@@ -1,0 +1,23 @@
+num = []
+
+for i in range(1):
+ ask = int(input("Enter a number >>>"))
+ num.append(ask)
+ print(num)
+
+ ask2 = int(input("Enter a number >>>"))
+ num.append(ask2)
+ print(num)
+
+ ask3 = int(input("Enter a number >>>"))
+ num.append(ask3)
+ print(num)
+
+ remove = str(input("Do you want to save the last number you entered? >>> "))
+ if remove == "no":
+  num.remove(ask3)
+  break
+ 
+ 
+
+print(num)
