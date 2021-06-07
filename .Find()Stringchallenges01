@@ -1,0 +1,26 @@
+total = 0
+Valid = 0
+InValid = 0
+x = True
+
+while x == True:
+  check = input("Do you want to check a UK phone Number? Y or N? ").upper()
+  
+  if check == "Y":
+    total = total + 1
+    num = input("Enter your UK phone number: ")
+
+    if num[0] == "0" and len(num) == 11:
+      Valid = Valid + 1
+      print("Valid UK phone number")
+    
+    else:
+      InValid = InValid + 1
+      print("Invalid UK phone number")
+    
+  if check == "N":
+    x = False
+
+print(total, "numbers have been checked.")
+print(Valid, "number(s)  valid.")
+print(InValid, "number(s) invalid.")
